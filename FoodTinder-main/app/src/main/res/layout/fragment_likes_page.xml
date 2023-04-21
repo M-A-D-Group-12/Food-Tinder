@@ -1,0 +1,134 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LikesPage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <ImageButton
+            android:id="@+id/liked_ibutton6"
+            android:layout_width="130dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/custombutton"
+            android:elevation="15dp"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/buffww"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/liked_ibutton4" />
+
+        <ImageButton
+            android:id="@+id/liked_ibutton3"
+            android:layout_width="130dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints="Button"
+            android:background="@drawable/custombutton"
+            android:elevation="15dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ws"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/liked_ibutton1" />
+
+        <ImageButton
+            android:id="@+id/liked_ibutton4"
+            android:layout_width="130dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/custombutton"
+            android:elevation="15dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zbs"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/liked_ibutton2" />
+
+        <ImageButton
+            android:id="@+id/liked_ibutton5"
+            android:layout_width="130dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custombutton"
+            android:elevation="15dp"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pizzh"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/liked_ibutton3" />
+
+        <ImageButton
+            android:id="@+id/liked_ibutton2"
+            android:layout_width="130dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/custombutton"
+            android:elevation="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/culvers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_view" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="150dp"
+            android:text="Liked Restaurants"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title_view"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/rectangle"
+            android:elevation="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="MY RESTAURANTS"
+            android:textAlignment="center"
+            android:textColor="#FEFEFE"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/liked_ibutton1"
+            android:layout_width="130dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="70dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custombutton"
+            android:elevation="15dp"
+            android:padding="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mcds"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_view" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
